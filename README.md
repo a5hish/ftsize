@@ -1,9 +1,6 @@
 # ftsize
-A simple C-based tool which let's you find the total size of files with a particular extension on your system.
+A simple C-based tool which let's you find the total size of files with a particular extension on your linux based operating system.
 
-## Requirements
-    - linux(os)
-    - gcc(compiler)
 
 ### Description
 ***ftsize*** displays the size's in Bytes, Kibibytes, Mibibytes of all the file of a perticular extension specified by user in a given path.
