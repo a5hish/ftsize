@@ -17,7 +17,7 @@
 
 #define AUTHOR "a5shish"
 #define TOOL_NAME "ftsize"
-#define VERSION "0.1"
+#define VERSION "1.0"
 #define MSG "Tool Usage :=> When given an extension it will scan the [specified_path] and return the sum of all file sizes having the specified_extension"
 
 #define PATH_SIZE 254
