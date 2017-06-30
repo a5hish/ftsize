@@ -1,7 +1,6 @@
 /*****************************
  * 
- * Author : ashish
- * email : 0theundefined@gmail.com
+ * Author : a5shish
  * version : 1.0
  * tool name : ftsize
  * 
@@ -16,7 +15,7 @@
 #include<dirent.h>
 #include<sys/stat.h>
 
-#define AUTHOR "Ashish"
+#define AUTHOR "a5shish"
 #define TOOL_NAME "ftsize"
 #define VERSION "0.1"
 #define MSG "Tool Usage :=> When given an extension it will scan the [specified_path] and return the sum of all file sizes having the specified_extension"
