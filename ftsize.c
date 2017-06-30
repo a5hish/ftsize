@@ -102,11 +102,11 @@ void die(char *msg){
 
 void show_detail(long bytes){
 	double dbytes=bytes;
-	printf("Bytes	  : %ld B\n", bytes);
+	printf("Bytes	  : %ld B's\n", bytes);
 	//to prevent DevideByZero error, check if the bytes == 0.
 	if(bytes==0)return;
-	printf("KiloBytes : %lf Kb\n", dbytes/1024.0);
-	printf("MegaBytes : %lf Mb\n", (dbytes/1024.0)/1024.0);
+	printf("KibiBytes : %lf KiB's\n", dbytes/1024.0);
+	printf("MibiBytes : %lf Mib's\n", (dbytes/1024.0)/1024.0);
 }
 
 void traverse_direct(char *ext, char *path, long *nb){
